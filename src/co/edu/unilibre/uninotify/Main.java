@@ -1,8 +1,8 @@
-package co.edu.unilibre.omnisignal;
+package co.edu.unilibre.uninotify;
 
-import co.edu.unilibre.omnisignal.core.facade.NotificacionFacade;
-import co.edu.unilibre.omnisignal.ui.console.MenuConsola;
-import co.edu.unilibre.omnisignal.ui.gui.VentanaOmniSignal;
+import co.edu.unilibre.uninotify.core.facade.NotificacionFacade;
+import co.edu.unilibre.uninotify.ui.console.MenuConsola;
+import co.edu.unilibre.uninotify.ui.gui.VentanaOmniSignal;
 import javax.swing.SwingUtilities;
 import java.util.Scanner;
 

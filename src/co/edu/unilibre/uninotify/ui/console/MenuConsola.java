@@ -1,7 +1,9 @@
-package co.edu.unilibre.omnisignal.ui.console;
+package co.edu.unilibre.uninotify.ui.console;
 
-import co.edu.unilibre.omnisignal.core.facade.NotificacionFacade;
-import co.edu.unilibre.omnisignal.model.*;
+import co.edu.unilibre.uninotify.model.PlantillaMensaje;
+import co.edu.unilibre.uninotify.model.RegistroLog;
+import co.edu.unilibre.uninotify.model.Usuario;
+import co.edu.unilibre.uninotify.core.facade.NotificacionFacade;
 import java.util.Scanner;
 
 public class MenuConsola {

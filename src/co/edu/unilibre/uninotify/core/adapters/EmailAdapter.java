@@ -1,6 +1,6 @@
-package co.edu.unilibre.omnisignal.core.adapters;
+package co.edu.unilibre.uninotify.core.adapters;
 
-import co.edu.unilibre.omnisignal.model.Usuario;
+import co.edu.unilibre.uninotify.model.Usuario;
 
 public class EmailAdapter implements CanalNotificacion {
     private final ServicioEmailExterno servicioEmail = new ServicioEmailExterno();

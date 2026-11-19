@@ -1,4 +1,4 @@
-package co.edu.unilibre.omnisignal.model;
+package co.edu.unilibre.uninotify.model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

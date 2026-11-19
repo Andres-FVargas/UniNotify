@@ -1,6 +1,6 @@
-package co.edu.unilibre.omnisignal.core.singleton;
+package co.edu.unilibre.uninotify.core.singleton;
 
-import co.edu.unilibre.omnisignal.model.RegistroLog;
+import co.edu.unilibre.uninotify.model.RegistroLog;
 import java.util.ArrayList;
 import java.util.List;
 

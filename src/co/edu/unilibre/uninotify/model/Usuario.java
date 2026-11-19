@@ -1,4 +1,4 @@
-package co.edu.unilibre.omnisignal.model;
+package co.edu.unilibre.uninotify.model;
 
 import java.util.HashSet;
 import java.util.Set;

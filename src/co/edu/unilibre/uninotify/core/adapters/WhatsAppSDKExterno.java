@@ -1,4 +1,4 @@
-package co.edu.unilibre.omnisignal.core.adapters;
+package co.edu.unilibre.uninotify.core.adapters;
 
 public class WhatsAppSDKExterno {
     public boolean pushMessage(String celular, String msg, boolean ack) {

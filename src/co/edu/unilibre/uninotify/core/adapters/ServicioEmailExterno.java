@@ -1,4 +1,4 @@
-package co.edu.unilibre.omnisignal.core.adapters;
+package co.edu.unilibre.uninotify.core.adapters;
 
 public class ServicioEmailExterno {
     public void sendSMTP(String correo, String asunto, String cuerpo) {

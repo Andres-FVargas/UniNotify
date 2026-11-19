@@ -1,9 +1,17 @@
-package co.edu.unilibre.omnisignal.core.facade;
+package co.edu.unilibre.uninotify.core.facade;
 
-import co.edu.unilibre.omnisignal.core.adapters.*;
-import co.edu.unilibre.omnisignal.core.singleton.RegistroHistorial;
-import co.edu.unilibre.omnisignal.core.strategies.*;
-import co.edu.unilibre.omnisignal.model.*;
+import co.edu.unilibre.uninotify.model.PlantillaMensaje;
+import co.edu.unilibre.uninotify.model.RegistroLog;
+import co.edu.unilibre.uninotify.model.Usuario;
+import co.edu.unilibre.uninotify.core.strategies.EstrategiaEnvio;
+import co.edu.unilibre.uninotify.core.strategies.EnvioUrgenteStrategy;
+import co.edu.unilibre.uninotify.core.strategies.EnvioInformativoStrategy;
+import co.edu.unilibre.uninotify.core.strategies.EnvioConReintentoStrategy;
+import co.edu.unilibre.uninotify.core.adapters.WhatsAppAdapter;
+import co.edu.unilibre.uninotify.core.adapters.CanalNotificacion;
+import co.edu.unilibre.uninotify.core.adapters.SMSAdapter;
+import co.edu.unilibre.uninotify.core.adapters.EmailAdapter;
+import co.edu.unilibre.uninotify.core.singleton.RegistroHistorial;
 import java.util.*;
 
 public class NotificacionFacade {

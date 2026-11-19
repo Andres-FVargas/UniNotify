@@ -1,4 +1,4 @@
-package co.edu.unilibre.omnisignal.core.adapters;
+package co.edu.unilibre.uninotify.core.adapters;
 
 public class ApiSMSExterna {
     public int dispatchText(long numeroTelefono, String textoCorto) {

@@ -1,7 +1,7 @@
-package co.edu.unilibre.omnisignal.ui.gui;
+package co.edu.unilibre.uninotify.ui.gui;
 
-import co.edu.unilibre.omnisignal.core.facade.NotificacionFacade;
-import co.edu.unilibre.omnisignal.model.RegistroLog;
+import co.edu.unilibre.uninotify.core.facade.NotificacionFacade;
+import co.edu.unilibre.uninotify.model.RegistroLog;
 import javax.swing.*;
 import java.awt.*;
 
