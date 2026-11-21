@@ -30,7 +30,7 @@ Base de datos relacional persistente o aplicación web: Una interfaz web no suma
 
  
 
-2. Requisitos del Sistema 
+2. Requisitos del sistema.
 
 Requisitos Funcionales (RF) 
 
