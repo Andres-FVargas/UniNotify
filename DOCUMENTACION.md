@@ -107,3 +107,48 @@ Problema 4. Dispersión del registro de auditoría: Tanto la consola como la ven
 4. Patrones de Diseño Seleccionados 
 
 Para resolver estos cuatro problemas arquitectónicos, aplicamos los siguientes patrones de diseño: 
+
+PATRON 
+
+Tipo 
+
+Problema que soluciona 
+
+ 
+
+Clases principales en UniNotify 
+
+Adapter 
+
+Estructural 
+
+Unifica las interfaces incompatibles de Email, SMS y WhatsApp bajo una interfaz común. 
+
+CanalNotificacion, EmailAdapter, SMSAdapter, WhatsAppAdapter 
+
+Strategy 
+
+Comportamiento 
+
+Permite intercambiar dinámicamente el algoritmo de envío según la prioridad del mensaje. 
+
+EstrategiaEnvio, EnvioUrgenteStrategy, EnvioInformativoStrategy, EnvioConReintentoStrategy 
+
+Facade 
+
+Estructural 
+
+Simplifica el acceso al núcleo del sistema para que consola y Swing usen las mismas operaciones. 
+
+NotificacionFacade 
+
+Singleton 
+
+Creacional 
+
+Garantiza una única instancia centralizada del historial de auditoría en toda la aplicación. 
+
+RegistroHistorial 
+
+
+
